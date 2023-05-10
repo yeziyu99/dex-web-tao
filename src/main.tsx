@@ -7,8 +7,9 @@ import { client } from './wagmi'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <WagmiConfig client={client}>
+    {/* <WagmiConfig client={client}>
       <App />
-    </WagmiConfig>
+    </WagmiConfig> */}
+    <App />
   </React.StrictMode>,
 )
